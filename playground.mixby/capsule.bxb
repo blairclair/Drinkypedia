@@ -1,0 +1,11 @@
+capsule {
+  id (playground.mixby)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-flags {
+    support-halt-effect-in-computed-inputs
+  }
+}
