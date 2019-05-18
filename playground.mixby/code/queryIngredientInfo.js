@@ -4,6 +4,6 @@ var config = require('config')
 
 module.exports.function = function queryIngredientInfo (strIngredient1) {
    var apiUrl = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?i='
-   var results = http.getUrl(apiUrl + arg1)
+   var results = http.getUrl(apiUrl + strIngredient1)
    return results
 }
