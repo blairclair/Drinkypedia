@@ -1,10 +1,10 @@
 result-view  {
-  match: Ingredient  (this){
-    from-output: IngredientsAction
+  match: Drink  (this){
+    from-output: FindDrink
   }
   render  {
-    layout-macro (IngredientsLayout){
-      param  (Ingredient){
+    layout-macro (findDrinkLayout){
+      param  (Drink){
         expression (this)
       }
     }

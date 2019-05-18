@@ -1,15 +1,15 @@
-layout {
-  match: __CONCEPT__ (this)
-  mode (Summary)
-  
-  content {
-    section {
-      content {
-        paragraph {
-          value ("#{value(this.data)}")
-          style (Body_1)
-        }
+layout-macro-def(findDrinkLayout) {
+  params {
+    param (Drink) {
+      type (Drink)
+      min (Required)
+      max (Many)
+    }
+  }
+ content{
+    section{
+      content{
+        imag
       }
     }
   }
-}
