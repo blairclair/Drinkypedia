@@ -1,0 +1,5 @@
+train (t-0cqoag43z4j6offzhu6948wwp) {
+  utterance ("[g:FindDrink] What is a (manhattan)[v:strIngredient1]?")
+  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmkMIQd8vMS4HIyWPIFZcUeealF6WmZKbmlRgyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1558210574546)
+}
