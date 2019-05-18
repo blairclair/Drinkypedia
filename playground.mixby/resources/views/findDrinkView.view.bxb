@@ -1,0 +1,12 @@
+result-view  {
+  match: Ingredient  (this){
+    from-output: IngredientsAction
+  }
+  render  {
+    layout-macro (IngredientsLayout){
+      param  (Ingredient){
+        expression (this)
+      }
+    }
+  }
+}
