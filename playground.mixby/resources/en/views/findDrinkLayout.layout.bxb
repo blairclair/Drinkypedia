@@ -6,14 +6,35 @@ layout-macro-def(findDrinkLayout) {
       max (Many)
     }
   }
- content{
-    section{
-      content{
-        image{
-          url("#{value(Drink[0].strDrinkThumb)}")
-          aspect-ratio(21:9)
+  content {
+    section {  // this macro returns a "section"
+      content {
+       
+        for-each (Drink){
+          as(i){
+            cell-card{
+              slot1{
+                image{
+                  url("#{value(Drink[i].strDrinkThumb)}")
+                  shape (Circle)
+                }
+              }
+              slot2{
+                content{
+                  primary("#{value(Drink[i].strDrink)}")
+                }
+              }
+              on-click{
+            intent{
+               goal: findSpecificDrinkInfo
+              value{ $expr(Drink[i])}
+              }
+          }
+            }
+          }
         }
       }
     }
   }
+
 }

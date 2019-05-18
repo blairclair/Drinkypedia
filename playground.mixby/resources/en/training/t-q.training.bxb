@@ -1,0 +1,5 @@
+train (t-q8j4pyccozo4bu9pwgsk5fpev) {
+  utterance ("[g:FindDrink] What's a good recipe for (rum)[v:strIngredient1] and (coke)[v:strIngredient1]?")
+  plan (Y2BlEMhNzMzTy82sSKrUcynKzMtmEEESccvMS4GISiKJFpcUeealF6WmZKbmlRiSKcXCwMjAxMAMpBnALCYgycDAA4QMQFFGiAwA)
+  last-modified (1558217616110)
+}
