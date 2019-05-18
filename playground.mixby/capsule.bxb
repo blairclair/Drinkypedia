@@ -1,5 +1,5 @@
 capsule {
-  id (main.mixby)
+  id (playground.mixby)
   version (0.1.0)
   format (3)
   targets {
