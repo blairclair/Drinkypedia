@@ -7,7 +7,7 @@ module.exports.function = function queryByIngredients (strIngredient1) {
   var apiUrl = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s='
   var results = []
   for (var i = 0; i < arguments[0].length; i++) {
-    var tmpResults = http.getUrl(apiUrl + arguments[0][i])
+    var tmpResults = http.getUrl(encodeURI(apiUrl + arguments[0][i]))
     tmpResults = JSON.parse(tmpResults)
     if (typeof(results[0]) == 'undefined') {
       for (id in tmpResults.drinks) {
