@@ -1,0 +1,5 @@
+train (t-cfi0nyr4id1x6l57wyqgq1nom) {
+  utterance ([g:findIBA:continue:FindDrink] and show me its glass type)
+  plan (Y2BiECvISaxML8ovzUvRy82sSKrUcynKzMtmkMAQT8vMS/F0cmRgBEIGKAaSAA==)
+  last-modified (1558221076159)
+}

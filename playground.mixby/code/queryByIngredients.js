@@ -30,5 +30,6 @@ module.exports.function = function queryByIngredients (strIngredient1) {
       results = newResults;
     }
   }
+
   return results
 }
