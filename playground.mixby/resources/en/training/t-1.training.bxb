@@ -1,0 +1,5 @@
+train (t-1wka3mt11mraqmm2r0hj1jmw3) {
+  utterance ("[g:FindDrink] What's a good (martini)[v:strIngredient1] recipe?")
+  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmkMIQd8vMS4HIyWPIFZcUeealF6WmZKbmlRgyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1558217209186)
+}
