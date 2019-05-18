@@ -22,15 +22,10 @@ result-view  {
           on-click{
             intent{
             goal: findSpecificDrinkInfo
-              value{ $expr(this.strDrink)}
+              value{ $expr(this)}
             }
            }
         }
-      }
-    }
-    layout-macro (findDrinkLayout){
-      param  (Drink){
-        expression (this)
       }
     }
   }
