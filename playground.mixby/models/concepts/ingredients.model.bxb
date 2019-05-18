@@ -1,19 +1,15 @@
-structure (Ingredients) {
+structure (ingredients) {
   description (__DESCRIPTION__)
-  property (idDrink) {
-    type (idDrink)
-    min (Optional) max (One)
-  }
   property (idIngredient) {
     type (idIngredient)
     min (Optional) max (One)
   }
-  property (strDescription) {
-    type (strDescription)
-    min (Optional) max (One)
-  }
   property (strIngredient) {
     type (strIngredient)
+    min (Optional) max (One)
+  }
+  property (strDescription) {
+    type (strDescription)
     min (Optional) max (One)
   }
   property (strType) {

@@ -1,0 +1,21 @@
+layout-macro-def(IngredientsLayout) {
+  params {
+    param (Ingredient) {
+      type (Ingredient)
+      min (Required)
+      max (One)
+    }
+  }
+ content{
+    section{
+      content{
+        paragraph{
+          value("hsdif")
+        }
+        paragraph{
+          value("hi: #{value(Ingredient.ingredients.strType)}")
+        }
+      }
+    }
+  }
+}
