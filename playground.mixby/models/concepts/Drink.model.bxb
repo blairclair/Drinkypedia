@@ -1,0 +1,7 @@
+structure (Drink) {
+  description (__DESCRIPTION__)
+  property (idDrink) {
+    type (idDrink)
+    min (Optional) max (One)
+  }
+}

@@ -22,6 +22,7 @@ module.exports.function = function queryByIngredients (arg1, arg2, ...) {
       results = newResults;
     }
   }
+  //debug
   for (id in results) {
     console.log(results[id].strDrink)
   }
