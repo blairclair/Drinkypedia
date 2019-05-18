@@ -9,16 +9,22 @@ result-view  {
       where-each (item){
         cell-card{
           slot1{
-          image{
-          url("#{value(strDrinkThumb)}")
-              shape (Circle)
-        }
+            image{
+            url("#{value(strDrinkThumb)}")
+            shape (Circle)
           }
-          slot2{
+         }
+         slot2{
             content{
               primary("#{value(strDrink)}")
             }
           }
+          on-click{
+            intent{
+            goal: findSpecificDrinkInfo
+              value{ $expr(this.strDrink)}
+            }
+           }
         }
       }
     }

@@ -1,0 +1,22 @@
+layout-macro-def(findSpecificDrinkInfoLayout) {
+  params {
+    param (Drink) {
+      type (Drink)
+      min (Required)
+      max (Many)
+    }
+  }
+ content{
+    section{
+      content{
+        image{
+          url("#{value(Drink.strDrinkThumb)}")
+          aspect-ratio(21:9)
+        }
+        paragraph{
+          value("name: #{value(Drink.strDrink)}")
+        }
+      }
+    }
+  }
+}
