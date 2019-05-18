@@ -13,32 +13,20 @@ result-view  {
               slot1 {
                 text {
                   style (Title_L)
-                  value ("#{value(strIngredient)}:")
+                  value ("#{value(strIngredient)}")
                 }
               }
-              slot2 {
-                single-line {
-                  text ("\n\n\n\n")
-                }
-              }
-              slot3 {
-                if (strDescription) {
-                  single-line {
-                    text {
-                      value ("No Description.")
-                    }
-                  }
-                }
-                else {
-                  single-line {
-                    text {
-                      style (Detail_L_Soft)
-                      value ("#{value(strDescription)}")
-                    }
-                  }
-                }
-              }
+//               
+//               slot2 {
+//                 paragraph {
+//                   style (Detail_M_Soft)
+//                   value ("#{value(strDescription)}")
+//                 }
+//               }
             }
+          }
+          paragraph{
+            value ("#{value(strDescription)}")
           }
         }
       }
