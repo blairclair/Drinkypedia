@@ -1,0 +1,47 @@
+result-view  {
+  match: Ingredient  (this){
+    min (Required)
+    max (Many)
+    from-output: IngredientsAction
+  }
+ render {
+    layout {
+      section {
+        content {
+           title-card {
+            title-area {
+              slot1 {
+                text {
+                  style (Title_L)
+                  value ("#{value(strIngredient)}:")
+                }
+              }
+              slot2 {
+                single-line {
+                  text ("\n\n\n\n")
+                }
+              }
+              slot3 {
+                if (strDescription) {
+                  single-line {
+                    text {
+                      value ("No Description.")
+                    }
+                  }
+                }
+                else {
+                  single-line {
+                    text {
+                      style (Detail_L_Soft)
+                      value ("#{value(strDescription)}")
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
