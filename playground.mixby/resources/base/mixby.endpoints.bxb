@@ -4,5 +4,9 @@ endpoints {
       accepted-inputs (strIngredient1)
       local-endpoint (queryIngredientInfo.js)
     }
+    action-endpoint (FindDrink) {
+      accepted-inputs (strIngredient1)
+      local-endpoint (queryByIngredients.js)
+    }
   }
 }
