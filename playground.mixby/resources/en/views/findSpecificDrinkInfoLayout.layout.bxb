@@ -11,10 +11,16 @@ layout-macro-def(findSpecificDrinkInfoLayout) {
       content{
         image{
           url("#{value(Drink.strDrinkThumb)}")
-          aspect-ratio(21:9)
+          aspect-ratio(1:1)
         }
         paragraph{
           value("name: #{value(Drink.strDrink)}")
+        }
+        paragraph{
+          value("tags: #{value(Drink.strTags)}")
+        }
+        paragraph{
+          value("Instructions: #{value(Drink.strInstructions)}")
         }
       }
     }
