@@ -1,0 +1,5 @@
+train (t-nfvoji9cdo3ywmtgtq80w9tdd) {
+  utterance ("[g:FindDrink] What drinks have a (Maraschino cherry)[v:strIngredient1] in them?")
+  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmkMIQd8vMS4HIyWPIFZcUeealF6WmZKbmlRgyMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1558211789079)
+}
