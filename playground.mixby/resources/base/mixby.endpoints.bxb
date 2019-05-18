@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (IngredientsAction) {
+      accepted-inputs (strIngredient1)
+      local-endpoint (queryIngredientInfo.js)
+    }
+  }
+}

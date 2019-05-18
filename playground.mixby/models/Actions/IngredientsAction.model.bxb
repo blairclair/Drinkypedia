@@ -1,0 +1,10 @@
+action (IngredientsAction) {
+  description (__DESCRIPTION__)
+  collect {
+    input (Ingredient) {
+      type (strIngredient1)
+      min (Optional) max (One)
+    }
+  }
+  output (Ingredients)
+}
