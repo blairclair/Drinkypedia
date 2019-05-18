@@ -13,14 +13,91 @@ layout-macro-def(findSpecificDrinkInfoLayout) {
           url("#{value(Drink.strDrinkThumb)}")
           aspect-ratio(1:1)
         }
-        paragraph{
-          value("name: #{value(Drink.strDrink)}")
+        compound-card {
+          content {
+            paragraph {
+              style(Title_M)
+              value("#{value(Drink.strDrink)}")
+            }
+            if (exists(Drink.strIngredient1)) {
+              paragraph{
+                value("#{value(Drink.strMeasure1)} #{value(Drink.strIngredient1)}")
+              }
+            }
+            if (exists(Drink.strIngredient2)) {
+              paragraph{
+                value("#{value(Drink.strMeasure2)} #{value(Drink.strIngredient2)}")
+              }
+            }
+            if (exists(Drink.strIngredient3)) {
+              paragraph{
+                value("#{value(Drink.strMeasure3)} #{value(Drink.strIngredient3)}")
+              }
+            }
+            if (exists(Drink.strIngredient4)) {
+              paragraph{
+                value("#{value(Drink.strMeasure4)} #{value(Drink.strIngredient4)}")
+              }
+            }
+            if (exists(Drink.strIngredient5)) {
+              paragraph{
+                value("#{value(Drink.strMeasure5)} #{value(Drink.strIngredient5)}")
+              }
+            }
+            if (exists(Drink.strIngredient6)) {
+              paragraph{
+                value("#{value(Drink.strMeasure6)} #{value(Drink.strIngredient6)}")
+              }
+            }
+            if (exists(Drink.strIngredient7)) {
+              paragraph{
+                value("#{value(Drink.strMeasure7)} #{value(Drink.strIngredient7)}")
+              }
+            }
+            if (exists(Drink.strIngredient8)) {
+              paragraph{
+                value("#{value(Drink.strMeasure8)} #{value(Drink.strIngredient8)}")
+              }
+            }
+            if (exists(Drink.strIngredient9)) {
+              paragraph{
+                value("#{value(Drink.strMeasure9)} #{value(Drink.strIngredient9)}")
+              }
+            }
+            if (exists(Drink.strIngredient10)) {
+              paragraph{
+                value("#{value(Drink.strMeasure10)} #{value(Drink.strIngredient10)}")
+              }
+            }
+            if (exists(Drink.strIngredient11)) {
+              paragraph{
+                value("#{value(Drink.strMeasure11)} #{value(Drink.strIngredient11)}")
+              }
+            }
+            if (exists(Drink.strIngredient12)) {
+              paragraph{
+                value("#{value(Drink.strMeasure12)} #{value(Drink.strIngredient12)}")
+              }
+            }
+            if (exists(Drink.strIngredient13)) {
+              paragraph{
+                value("#{value(Drink.strMeasure13)} #{value(Drink.strIngredient13)}")
+              }
+            }
+            if (exists(Drink.strIngredient14)) {
+              paragraph{
+                value("#{value(Drink.strMeasure14)} #{value(Drink.strIngredient14)}")
+              }
+            }
+            if (exists(Drink.strIngredient15)) {
+              paragraph{
+                value("#{value(Drink.strMeasure15)} #{value(Drink.strIngredient15)}")
+              }
+            }
+          }
         }
         paragraph{
-          value("tags: #{value(Drink.strTags)}")
-        }
-        paragraph{
-          value("Instructions: #{value(Drink.strInstructions)}")
+          value("#{value(Drink.strInstructions)}")
         }
       }
     }
