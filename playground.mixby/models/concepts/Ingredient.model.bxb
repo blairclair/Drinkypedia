@@ -1,0 +1,7 @@
+structure (Ingredient) {
+  description (__DESCRIPTION__)
+  property (idIngredient) {
+    type (idIngredient)
+    min (Optional) max (One)
+  }
+}
