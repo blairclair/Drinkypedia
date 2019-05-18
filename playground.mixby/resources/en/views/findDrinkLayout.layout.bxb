@@ -9,7 +9,11 @@ layout-macro-def(findDrinkLayout) {
  content{
     section{
       content{
-        imag
+        image{
+          url("#{value(Drink[0].strDrinkThumb)}")
+          aspect-ratio(21:9)
+        }
       }
     }
   }
+}
