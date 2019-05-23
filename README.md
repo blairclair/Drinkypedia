@@ -8,3 +8,7 @@ Collaberators:
 Ariella Grodzinsky https://github.com/blairclair
 
 Alex Kozma https://github.com/NotHawthorne
+
+Jeremy Kertgate https://github.com/jeremykertgate
+
+Tom Vandivier https://github.com/fractalfox01
