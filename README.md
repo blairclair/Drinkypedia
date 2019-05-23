@@ -5,7 +5,6 @@ Currently in developement.
 
 Collaberators:
 -------------
--------------
 Ariella Grodzinsky https://github.com/blairclair
 
 Alex Kozma https://github.com/NotHawthorne
