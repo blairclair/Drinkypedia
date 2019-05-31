@@ -10,7 +10,6 @@ content = BeautifulSoup(response.content, "html.parser")
 linksDrinks = content.find_all('a')
 for l2 in linksDrinks:
 	l2.decompose()
-line = content.find('dl')
 info = content.find_all('dl')
 for line in info:
 	lineObjectOne = {
