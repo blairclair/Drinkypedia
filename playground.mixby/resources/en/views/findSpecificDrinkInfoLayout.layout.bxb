@@ -9,6 +9,7 @@ layout-macro-def(findSpecificDrinkInfoLayout) {
  content{
     section{
       content{
+        if (exists(Drink)){
         image{
           url("#{value(Drink.strDrinkThumb)}")
           aspect-ratio(1:1)
@@ -100,6 +101,12 @@ layout-macro-def(findSpecificDrinkInfoLayout) {
           value("#{value(Drink.strInstructions)}")
         }
       }
+        else{
+          paragraph{
+            value("Sorry we don't have any drinks with that ingredient right now")
+          }
+        }
+    }
     }
   }
 }

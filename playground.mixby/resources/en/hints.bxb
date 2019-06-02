@@ -1,6 +1,6 @@
 hints {
   uncategorized {
-    utterance (What can I make with gin?)
+    utterance (What drinks can I make with gin?)
     utterance (What is a Manhattan?)
     utterance (Tell me about vodka.)
   }
