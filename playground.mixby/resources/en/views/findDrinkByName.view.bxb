@@ -1,0 +1,14 @@
+result-view  {
+  match: Drink  (this){
+    min (Required)
+    max (Many)
+    from-output: findDrinkByName
+  }
+  render  {
+    layout-macro (findDrinkLayout){
+      param (Drink){
+        expression (this)
+      }
+    }
+  }
+}

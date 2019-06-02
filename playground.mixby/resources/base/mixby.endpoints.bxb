@@ -12,5 +12,9 @@ endpoints {
       accepted-inputs (Drink)
       local-endpoint (findSpecificDrinkInfo.js)
     }
+    action-endpoint (findDrinkByName) {
+      accepted-inputs (strDrink)
+      local-endpoint (findDrinkByName.js)
+    }
   }
 }

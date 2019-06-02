@@ -4,7 +4,7 @@ train (t-6jgx0agcnyagdk2zhtpek7n03) {
   last-modified (1558210316887)
 }
 train (t-6mtzga6ob440hlwg2pcmld2gv) {
-  utterance ("[g:FindDrink] What is a (cosmopolitan)[v:strIngredient1]?")
-  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmkMIQd8vMS4HIyWPIFZcUeealF6WmZKbmlRgyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1558210602158)
+  utterance ("[g:findDrinkByName] What is a (cosmopolitan)[v:strDrink]?")
+  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmUMAQT8vMSwHLOVX6JeamMkhiqCguKYJoZmJgBGIGIMnIAAJQPgA=)
+  last-modified (1559496122287)
 }

@@ -1,5 +1,5 @@
 train (t-1wka3mt11mraqmm2r0hj1jmw3) {
-  utterance ("[g:FindDrink] What's a good (martini)[v:strIngredient1] recipe?")
-  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmkMIQd8vMS4HIyWPIFZcUeealF6WmZKbmlRgyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1558217209186)
+  utterance ("[g:findDrinkByName] What's a good (martini)[v:strDrink] recipe?")
+  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmUMAQT8vMSwHLOVX6JeamMkhiqCguKYJoZmJgBGIGIMnIAAJQPgA=)
+  last-modified (1559496096324)
 }

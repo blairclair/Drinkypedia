@@ -1,5 +1,5 @@
 train (t-hkh4rudcm9473y3pbt2zob8g9) {
-  utterance ("[g:FindDrink] Wat is (gin)[v:strIngredient1]?")
-  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmkMIQd8vMS4HIyWPIFZcUeealF6WmZKbmlRgyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1559465670466)
+  utterance ("[g:findDrinkByName] Wat is (gin)[v:strDrink]?")
+  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmUMAQT8vMSwHLOVX6JeamMkhiqCguKYJoZmJgBGIGIMnIAAJQPgA=)
+  last-modified (1559496159562)
 }

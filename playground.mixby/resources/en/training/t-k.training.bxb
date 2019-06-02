@@ -1,5 +1,5 @@
 train (t-kqew0xkuixxaf60gjmp6qtmml) {
-  utterance ("[g:FindDrink] What is in a (whiskey sour)[v:strIngredient1]?")
-  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmkMIQd8vMS4HIyWPIFZcUeealF6WmZKbmlRgyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1558210731076)
+  utterance ("[g:findDrinkByName] What is in a (whiskey sour)[v:strDrink]?")
+  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmUMAQT8vMSwHLOVX6JeamMkhiqCguKYJoZmJgBGIGIMnIAAJQPgA=)
+  last-modified (1559496191652)
 }
