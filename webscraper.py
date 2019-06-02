@@ -3,19 +3,18 @@ import requests
 import json
 import csv
 
-drinksArr = []
-url = 'https://en.wikibooks.org/wiki/Bartending/Cocktails/Glossary'
-response = requests.get(url, timeout=5)
-content = BeautifulSoup(response.content, "html.parser")
-linksDrinks = content.find_all('a')
-for l2 in linksDrinks:
-	l2.decompose()
-info = content.find_all('dl')
-for line in info:
-	lineObjectOne = {
-		"name": str(line.find('dt')),
-		"instructions": str(line.find('dd'))
-	}
-	drinksArr.append(lineObjectOne)
-with open('drinkData.json', 'w') as outfile:
-	json.dump(drinksArr, outfile)
+numPage = 11000
+
+while (numPage < 11028):
+	drinksArr = []
+	url = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=' + str(numPage)
+	response = requests.get(url, timeout=5)
+	content = BeautifulSoup(response.content, "html.parser")
+	for line in content:
+		newContent = {
+			"drinks": line
+		}
+	drinksArr.append(newContent)
+	with open('drinkData.json', 'a') as outfile:
+		json.dump(drinksArr, outfile)
+	numPage += 1
