@@ -11,49 +11,4 @@ result-view  {
       }
     }
   }
-  //   list-of (this){
-  //     where-each (item){
-  //       // cell-card{
-  //       //     on-click{
-  //       //     intent{
-  //       //     goal: findSpecificDrinkInfo
-  //       //       value{ $expr(this)}
-  //       //     }
-  //       //    }
-  //       //   slot1{
-  //       //     image{
-  //       //     url("#{value(strDrinkThumb)}")
-  //       //     shape (Circle)
-  //       //   }
-  //       //  }
-  //       //  slot2{
-  //       //     content{
-  //       //       primary("#{value(strDrink)}")
-  //       //     }
-  //       //   }
-  //       // }
-  //       image-card{
-  //         size (S)
-  //         image-url{
-  //           template ("#{value(strDrinkThumb)}")
-  //         }
-  //         title-area{
-  //           halign (Start)
-  //           slot1{
-  //             text{
-  //               style (Title_M)
-  //               value("#{value(strDrink)}")
-  //             }
-  //           }
-  //         }
-  //         on-click{
-  //           intent{
-  //           goal: findSpecificDrinkInfo
-  //             value{ $expr(this)}
-  //           }
-  //          }
-  //       }
-  //     }
-  //   }
-  // }
 }
