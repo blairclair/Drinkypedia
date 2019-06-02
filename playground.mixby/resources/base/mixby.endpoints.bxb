@@ -12,9 +12,5 @@ endpoints {
       accepted-inputs (Drink)
       local-endpoint (findSpecificDrinkInfo.js)
     }
-      action-endpoint (findIBA) {
-      accepted-inputs (Drink)
-      local-endpoint (findSpecificDrinkInfo.js)
-    }
   }
 }

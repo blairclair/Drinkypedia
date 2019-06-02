@@ -25,9 +25,10 @@ layout-macro-def(findDrinkLayout) {
                 }
               }
               on-click{
+                
             intent{
                goal: findSpecificDrinkInfo
-              value{ $expr(Drink[i])}
+              value{$expr(Drink[i])}
               }
           }
             }

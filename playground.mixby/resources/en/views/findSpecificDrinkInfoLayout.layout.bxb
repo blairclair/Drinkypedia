@@ -3,7 +3,7 @@ layout-macro-def(findSpecificDrinkInfoLayout) {
     param (Drink) {
       type (Drink)
       min (Required)
-      max (Many)
+      max (One)
     }
   }
  content{

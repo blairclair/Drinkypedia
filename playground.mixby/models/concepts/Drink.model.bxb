@@ -2,11 +2,11 @@ structure (Drink) {
   description (__DESCRIPTION__)
   property (idDrink) {
     type (idDrink)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   property (strDrink) {
     type (strDrink)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   property (strDrinkAltername) {
     type (strDrinkAltername)
@@ -42,7 +42,7 @@ structure (Drink) {
   }
   property (strCategory) {
     type (strCategory)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   property (strIBA) {
     type (strIBA)
@@ -58,7 +58,7 @@ structure (Drink) {
   }
   property (strInstructions) {
     type (strInstructions)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   property (strInstructionsES) {
     type (strInstructionsES)
