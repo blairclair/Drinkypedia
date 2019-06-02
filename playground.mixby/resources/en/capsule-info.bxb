@@ -1,0 +1,20 @@
+description {
+  displayName (NAME)
+  companyName (NAME)
+  iconUrl (https://i.imgur.com/3xGHS0v.png)
+  description ("Feeling like a fancy drink, but don't know what recipes you can make with what you have? Ask NAME! NAME will find you drinks that you can make with whatever you have in your cabinet, and give you the recipe and instructions on how to make it!")
+  search-keywords{
+    keyword (drink)
+    keyword (recipe)
+    keyword (spirits)
+    keyword (alcohol)
+  }
+  dispatch-name (NAME) 
+  dispatch-aliases {
+    alias (NAME recipes)
+    alias (NAME drinks)
+    alias (NAME capsule) 
+  }
+  actionBgColor (#BF2519)
+  actionFgColor (#FFFFFF)
+}
