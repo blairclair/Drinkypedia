@@ -5,8 +5,8 @@ var test = require('./concatIngredients')
 module.exports.function = function findDrinkByName (strDrink) {
   var apiUrl = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s='
   var results = []
-  for (var i = 0; i < arguments[0].length; i++) {
-    var tmpResults = http.getUrl(encodeURI(apiUrl + arguments[0][i]))
+  // for (var i = 0; i < arguments[0].length; i++) {
+    var tmpResults = http.getUrl(encodeURI(apiUrl + strDrink))
     tmpResults = JSON.parse(tmpResults)
     if (typeof(results[0]) == 'undefined') {
       for (id in tmpResults.drinks) {
@@ -27,7 +27,7 @@ module.exports.function = function findDrinkByName (strDrink) {
       }
       results = newResults;
     }
-  }
+  // }
 
   return results
 }
