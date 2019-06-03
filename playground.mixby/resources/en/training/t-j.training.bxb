@@ -3,3 +3,8 @@ train (t-jgcq5dxssmae7nl19f1p9wkii) {
   plan (Y2BmkC7ISaxML8ovzUvRy82sSKrU88xLL0pNyUzNK2FQwiNZ7JhckpmfxyCPoaa4pAihzJCBiYERiBmAJCMDCED5AA==)
   last-modified (1559561809187)
 }
+train (t-jlc4wcgv55ijwgr8xi7eueqk8) {
+  utterance ("[g:FindDrink] What drinks have (vodka)[v:strIngredient1] and (tequila)[v:strIngredient1] in them?")
+  plan (Y2BlEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMKpVkYGBmYGJiBNAOYxQQkGRh4gJABKMoIkQEA)
+  last-modified (1559572620618)
+}

@@ -1,0 +1,5 @@
+train (t-fxsj41uqk764oyf3pdv8efdg2) {
+  utterance ("[g:FindDrink] What drinks have a (lime)[v:strIngredient1] in them?")
+  plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMGJgZGIGYAkowMIADlAwA=)
+  last-modified (1559572423134)
+}

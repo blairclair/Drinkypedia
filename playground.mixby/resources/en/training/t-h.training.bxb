@@ -1,5 +1,0 @@
-train (t-ht81npixgquy2cdvlx0lii9c9) {
-  utterance ("[g:FindDrink] What drinks can I make with (gin)[v:strIngredient1] and (tonic water)[v:strIngredient1]?")
-  plan (Y2BlECvISaxML8ovzUvRy82sSKrUcynKzMtmkMIQd8vMS4HIyWPIFZcUeealF6WmZKbmlRhSQQELAyMDEwMzkGYAs5iAJAMDDxAyAEUZITIA)
-  last-modified (1559527880474)
-}
