@@ -1,0 +1,5 @@
+train (t-wwmw33ja5n7k4qrlt0zfajfsg) {
+  utterance ("[g:FindDrink] What drinks can I make with (lime)[v:strIngredient1]?")
+  plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMGJgZGIGYAkowMIADlAwA=)
+  last-modified (1559593660038)
+}
