@@ -1,3 +1,8 @@
+train (t-hk7oo4u3lkbs38xcjh8o48rtb) {
+  utterance ("[g:findDrinkByName] What is a (National Aquarium)[v:strDrink]")
+  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmUMAQT8vMSwHLOVX6JeamMkhiqCguKYJoZmJgBGIGIMnIAAJQPgA=)
+  last-modified (1559541889639)
+}
 train (t-hkh4rudcm9473y3pbt2zob8g9) {
   utterance ("[g:findDrinkByName] Wat is (gin)[v:strDrink]?")
   plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmUMAQT8vMSwHLOVX6JeamMkhiqCguKYJoZmJgBGIGIMnIAAJQPgA=)
