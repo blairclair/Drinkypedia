@@ -1,0 +1,5 @@
+train (t-jgcq5dxssmae7nl19f1p9wkii) {
+  utterance ("[g:IngredientsAction] Tell me about (lemon)[v:strIngredient1]")
+  plan (Y2BmkC7ISaxML8ovzUvRy82sSKrU88xLL0pNyUzNK2FQwiNZ7JhckpmfxyCPoaa4pAihzJCBiYERiBmAJCMDCED5AA==)
+  last-modified (1559561809187)
+}

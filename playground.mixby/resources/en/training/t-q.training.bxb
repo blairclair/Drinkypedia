@@ -1,5 +1,0 @@
-train (t-q64culk1g5w4vcg9xeisln4c7) {
-  utterance ("[g:IngredientsAction] Tell me about (gin)[v:strIngredient1]")
-  plan (Y2BmkC7ISaxML8ovzUvRy82sSKrU88xLL0pNyUzNK2FQwiNZ7JhckpmfxyCPoaa4pAihzJCBiYERiBmAJCMDCED5AA==)
-  last-modified (1559473779339)
-}
