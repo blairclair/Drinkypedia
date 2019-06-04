@@ -1,0 +1,5 @@
+train (t-iq1ge5t5vk2amlj4tkh67az5t) {
+  utterance ("[g:FindDrink] What can I make with (orange juice)[v:strIngredient1] and (vodka)[v:strIngredient1]?")
+  plan (Y2BlEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMKpVkYGBmYGJiBNAOYxQQkGRh4gJABKMoIkQEA)
+  last-modified (1559598923972)
+}

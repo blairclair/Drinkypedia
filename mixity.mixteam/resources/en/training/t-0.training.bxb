@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 train (t-000mqnpu2u9ibtkdaaq427zuv) {
   utterance ("[g:FindDrink] Any drinks I can make using (lime)[v:strIngredient1]")
   plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMGJgZGIGYAkowMIADlAwA=)
   last-modified (1559609768998)
+=======
+train (t-07onv75llsqjb1ff5efc8usz6) {
+  utterance ("[g:FindDrink] What drinks can I make with (rum)[v:strIngredient1] and (juice)[v:strIngredient1]?")
+  plan (Y2BlEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMKpVkYGBmYGJiBNAOYxQQkGRh4gJABKMoIkQEA)
+  last-modified (1559598792493)
+>>>>>>> 2b54e8eb9aeb9da7c88271bb6c2b173e884828ed
 }
 train (t-0cqoag43z4j6offzhu6948wwp) {
   utterance ("[g:findDrinkByName] What is a (manhattan)[v:strDrink]?")
