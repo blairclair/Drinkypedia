@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-train (t-hhnj8k3zb3qcxcz6hw9kec1cf) {
-  utterance ("[g:IngredientsAction] Tell me about the ingredient (vodka)[v:strIngredient1]")
-  plan (Y2BmkMzNrMgsqdQDUiWpibl6nnnpRakpmal5JQwKOKWKHZNLMvPzGGTRVBSXFCEUGTIwMTACMQOQZGQAASgfAA==)
-  last-modified (1559610764881)
-=======
 train (t-hau0586p455n6bj4847yp9xp7) {
   utterance ("[g:FindDrink] What's some stuff I can make with (rum)[v:strIngredient1]?")
   plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMGJgZGIGYAkowMIADlAwA=)
   last-modified (1559598955300)
->>>>>>> 2b54e8eb9aeb9da7c88271bb6c2b173e884828ed
 }

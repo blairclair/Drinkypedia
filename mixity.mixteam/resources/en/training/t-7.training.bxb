@@ -1,5 +1,0 @@
-train (t-77wynovhde6hq7q3whe74qill) {
-  utterance ("[g:FindDrink] What drinks can I make with (gin)[v:strIngredient1] and (cranberry juice)[v:strIngredient1]?")
-  plan (Y2BlEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMKpVkYGBmYGJiBNAOYxQQkGRh4gJABKMoIkQEA)
-  last-modified (1559598838445)
-}
