@@ -1,0 +1,5 @@
+train (t-hhnj8k3zb3qcxcz6hw9kec1cf) {
+  utterance ("[g:IngredientsAction] Tell me about the ingredient (vodka)[v:strIngredient1]")
+  plan (Y2BmkMzNrMgsqdQDUiWpibl6nnnpRakpmal5JQwKOKWKHZNLMvPzGGTRVBSXFCEUGTIwMTACMQOQZGQAASgfAA==)
+  last-modified (1559610764881)
+}

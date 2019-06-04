@@ -1,10 +1,15 @@
 train (t-6jgx0agcnyagdk2zhtpek7n03) {
   utterance ("[g:FindDrink] What drinks can I make with (vodka)[v:strIngredient1]?")
-  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmkMIQd8vMS4HIyWPIFZcUeealF6WmZKbmlRgyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1558210316887)
+  plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMGJgZGIGYAkowMIADlAwA=)
+  last-modified (1559609131307)
 }
 train (t-6mtzga6ob440hlwg2pcmld2gv) {
   utterance ("[g:findDrinkByName] What is a (cosmopolitan)[v:strDrink]?")
-  plan (Y2BmECvISaxML8ovzUvRy82sSKrUcynKzMtmUMAQT8vMSwHLOVX6JeamMkhiqCguKYJoZmJgBGIGIMnIAAJQPgA=)
-  last-modified (1559496122287)
+  plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMcmiiaZl5KWAZp0q/xNxUBnE0+eKSIohGJgZGIGYAkowMIADlAwA=)
+  last-modified (1559609131370)
+}
+train (t-6u116ux6jdzdwc2nwb00heb2m) {
+  utterance ("[g:IngredientsAction] I need to know stuff about (vodka)[v:strIngredient1]")
+  plan (Y2BmkMzNrMgsqdQDUiWpibl6nnnpRakpmal5JQwKOKWKHZNLMvPzGGTRVBSXFCEUGTIwMTACMQOQZGQAASgfAA==)
+  last-modified (1559610760782)
 }

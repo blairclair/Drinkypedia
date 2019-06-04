@@ -1,0 +1,5 @@
+train (t-o0nmoamuyuoq891i8m6i298z9) {
+  utterance ("[g:FindDrink] What can I make using (vodka)[v:strIngredient1]?")
+  plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMGJgZGIGYAkowMIADlAwA=)
+  last-modified (1559609935880)
+}

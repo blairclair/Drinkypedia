@@ -1,5 +1,10 @@
 train (t-n40nufroruybxjk47t2b5zjwh) {
   utterance ("[g:IngredientsAction] Tell me about (vodka)[v:strIngredient1].")
-  plan (Y2BmkC7ISaxML8ovzUvRy82sSKrU88xLL0pNyUzNK2FQwiNZ7JhckpmfxyCPoaa4pAihzJCBiYERiBmAJCMDCED5AA==)
-  last-modified (1558217283633)
+  plan (Y2BmkMzNrMgsqdQDUiWpibl6nnnpRakpmal5JQwKOKWKHZNLMvPzGGTRVBSXFCEUGTIwMTACMQOQZGQAASgfAA==)
+  last-modified (1559609131591)
+}
+train (t-n5mfwebaigtav74b2s3e91bzh) {
+  utterance ("[g:FindDrink] Give me drinks I  can make with (tequila)[v:strIngredient1]")
+  plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMGJgZGIGYAkowMIADlAwA=)
+  last-modified (1559610457453)
 }

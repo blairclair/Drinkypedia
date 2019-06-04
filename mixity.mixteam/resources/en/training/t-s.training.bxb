@@ -1,0 +1,15 @@
+train (t-sap09wde2d63n2p8qy121oclt) {
+  utterance ("[g:FindDrink] What can I make using (whiskey)[v:strIngredient1]?")
+  plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMGJgZGIGYAkowMIADlAwA=)
+  last-modified (1559610069164)
+}
+train (t-sra5nz0w1qvtp5lk35ngo3s67) {
+  utterance ("[g:FindDrink] What can I make using (tequila)[v:strIngredient1]?")
+  plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMGJgZGIGYAkowMIADlAwA=)
+  last-modified (1559609990137)
+}
+train (t-syl44f6ly92f9oasbsngmx5s5) {
+  utterance ("[g:FindDrink] What drinks can I make with (tequila)[v:strIngredient1]?")
+  plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMGJgZGIGYAkowMIADlAwA=)
+  last-modified (1559609187895)
+}
