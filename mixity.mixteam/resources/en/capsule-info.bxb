@@ -1,19 +1,19 @@
 description {
-  displayName (Mixity)
-  companyName (Mixity)
+  displayName (Drinkypedia)
+  companyName (Drinkypedia)
   iconUrl (https://i.imgur.com/3xGHS0v.png)
-  description ("Feeling like a fancy drink, but don't know what recipes you can make with what you have? Ask Mixity! Mixity will find you drinks that you can make with whatever you have in your cabinet, and give you the recipe and instructions on how to make it!")
+  description ("Feeling like a fancy drink, but don't know what recipes you can make with what you have? Ask Drinkypedia! Drinkypedia will find you drinks that you can make with whatever you have in your cabinet, and give you the recipe and instructions on how to make it!")
   search-keywords{
     keyword (drink)
     keyword (recipe)
     keyword (spirits)
     keyword (alcohol)
   }
-  dispatch-name (Mixity) 
+  dispatch-name (Drinky Pedia) 
   dispatch-aliases {
-    alias (Mixity recipes)
-    alias (Mixity drinks)
-    alias (Mixity capsule) 
+    alias (DrinkyPedia recipes)
+    alias (DrinkyPedia drinks)
+    alias (DrinkyPedia capsule) 
   }
   actionBgColor (#BF2519)
   actionFgColor (#FFFFFF)

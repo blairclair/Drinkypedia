@@ -1,5 +1,5 @@
 capsule {
-  id (mixity.mixteam)
+  id (drinkypedia.drinkyteam)
   version (0.1.0)
   format (3)
   targets {
