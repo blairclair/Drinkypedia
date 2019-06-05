@@ -3,6 +3,11 @@ train (t-sap09wde2d63n2p8qy121oclt) {
   plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMGJgZGIGYAkowMIADlAwA=)
   last-modified (1559610069164)
 }
+train (t-so33csjhfm8f15kv85ec7cupg) {
+  utterance ("[g:findDrinkByName] What is an (old fashioned)[v:strDrink]?")
+  plan (Y2BmkEkpyszLrixITclM1IOwS1ITc/VcQEwGNRyyaZl5KWAVTpV+ibmpDPI41BWXFEEMYmJgBGIGIMnIAAJQPgA=)
+  last-modified (1559761421745)
+}
 train (t-sra5nz0w1qvtp5lk35ngo3s67) {
   utterance ("[g:FindDrink] What can I make using (tequila)[v:strIngredient1]?")
   plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMGJgZGIGYAkowMIADlAwA=)
