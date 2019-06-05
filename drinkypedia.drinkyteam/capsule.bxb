@@ -1,6 +1,6 @@
 capsule {
   id (drinkypedia.drinkyteam)
-  version (1.0.3)
+  version (1.0.4)
   format (3)
   targets {
     target (bixby-mobile-en-US)
@@ -9,5 +9,8 @@ capsule {
     support-halt-effect-in-computed-inputs
      modern-prompt-rejection
     no-fallback-to-result-collections
+  }
+  store-sections {
+    section (FoodAndDrink)
   }
 }
