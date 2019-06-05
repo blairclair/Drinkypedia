@@ -2,5 +2,5 @@ dialog (Result) {
   match: Drink (this){
     from-output: FindDrink
   }
-  template("I found your poison")
+  template("I've found some drinks for you.")
 }
