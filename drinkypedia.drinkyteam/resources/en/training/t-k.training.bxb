@@ -3,3 +3,8 @@ train (t-kqew0xkuixxaf60gjmp6qtmml) {
   plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMcmiiaZl5KWAZp0q/xNxUBnE0+eKSIohGJgZGIGYAkowMIADlAwA=)
   last-modified (1559609131515)
 }
+train (t-ksuytfj6ltbz01797b6bho5q8) {
+  utterance ("[g:findDrinkByName] Explain to me what a (sour)[v:strDrink] is")
+  plan (Y2BmkEkpyszLrixITclM1IOwS1ITc/VcQEwGNRyyaZl5KWAVTpV+ibmpDPI41BWXFEEMYmJgBGIGIMnIAAJQPgA=)
+  last-modified (1559759722184)
+}

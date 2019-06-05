@@ -3,3 +3,8 @@ train (t-e1egg3q6uu8ale1y0w1b2rttl) {
   plan (Y2BmEMnNrMgsqdQDUiWpibl6LkWZedkMEmiibpl5KRAZWTSZ4pIiz7z0otSUzNS8EkMGJgZGIGYAkowMIADlAwA=)
   last-modified (1559609959485)
 }
+train (t-ehv3crpf7jyzymt28uugigjh0) {
+  utterance ("[g:findDrinkByName] Search for (old fashioned)[v:strDrink].")
+  plan (Y2BmkEkpyszLrixITclM1IOwS1ITc/VcQEwGNRyyaZl5KWAVTpV+ibmpDPI41BWXFEEMYmJgBGIGIMnIAAJQPgA=)
+  last-modified (1559759864852)
+}
