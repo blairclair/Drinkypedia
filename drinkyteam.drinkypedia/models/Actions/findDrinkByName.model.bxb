@@ -4,7 +4,7 @@ action (findDrinkByName) {
   collect {
     input (strDrink) {
       type (strDrink)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
   }
   output (Drink)

@@ -3,7 +3,7 @@ action (FindDrink) {
   collect {
     input (strIngredient1) {
       type (strIngredient1)
-      min (Required) max (Many)
+      min (Optional) max (Many)
     }
   }
   type (Search)
