@@ -9,7 +9,6 @@ layout-macro-def(findDrinkLayout) {
   content {
     section {  // this macro returns a "section"
       content {
-       
         for-each (Drink){
           as(i){
             cell-card{

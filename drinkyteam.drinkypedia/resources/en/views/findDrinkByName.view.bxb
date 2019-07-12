@@ -5,6 +5,13 @@ result-view  {
     from-output: findDrinkByName
   }
   render  {
+    if (exists(this[0]) && !exists(this[1])){
+      layout-macro (findSpecificDrinkInfoLayout){
+        param (Drink){
+          expression (this[0])
+        }
+      }
+    }
     layout-macro (findDrinkLayout){
       param (Drink){
         expression (this)
