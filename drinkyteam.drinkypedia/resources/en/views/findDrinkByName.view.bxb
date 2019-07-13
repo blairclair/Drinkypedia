@@ -12,10 +12,12 @@ result-view  {
         }
       }
     }
+    else{ 
     layout-macro (findDrinkLayout){
       param (Drink){
         expression (this)
       }
     }
+  }
   }
 }

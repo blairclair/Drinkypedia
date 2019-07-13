@@ -11,19 +11,22 @@ layout-macro-def(findDrinkLayout) {
       content {
         for-each (Drink){
           as(i){
-            cell-card{
-              slot1{
-                image{
-                  url("#{value(Drink[i].strDrinkThumb)}")
-                  shape (Circle)
+            compound-card{
+              content{
+                image-card{
+                  aspect-ratio(1:1)
+                  image-url("#{value(Drink[i].strDrinkThumb)}")
+                  title-area{
+                    halign (Start)
+                    slot1{
+                      text{
+                        value("#{value(Drink[i].strDrink)}")
+                      }
+                    }
+                  }
                 }
               }
-              slot2{
-                content{
-                  primary("#{value(Drink[i].strDrink)}")
-                }
-              }
-              on-click{
+                  on-click{
                 
             intent{
                goal: findSpecificDrinkInfo
@@ -31,6 +34,20 @@ layout-macro-def(findDrinkLayout) {
               }
           }
             }
+//             cell-card{
+//               slot1{
+//                 image{
+//                   url("#{value(Drink[i].strDrinkThumb)}")
+//                   shape (Circle)
+//                 }
+//               }
+//               slot2{
+//                 content{
+//                   primary("#{value(Drink[i].strDrink)}")
+//                 }
+//               }
+//           
+//             }
           }
         }
       }
