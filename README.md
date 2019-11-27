@@ -12,3 +12,5 @@ Alex Kozma https://github.com/NotHawthorne
 Jeremy Kertgate https://github.com/jeremykertgate
 
 Tom Vandivier https://github.com/fractalfox01
+
+Jamie Dawson
