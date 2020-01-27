@@ -14,4 +14,4 @@ Jeremy Kertgate https://github.com/jeremykertgate
 Tom Vandivier https://github.com/fractalfox01
 
 Jamie Dawson  https://github.com/JamieDawson
-![](https://github.com/blairclair/Drinkypedia/blob/master/assets/Screenshot_20200122-163929_Bixby%20Voice.jpg)
+![](https://github.com/blairclair/Drinkypedia/blob/master/assets/Screenshot_20200122-163929_Bixby%20Voice.jpg=10x20)
